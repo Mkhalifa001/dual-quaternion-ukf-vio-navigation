@@ -1,0 +1,30 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated/cache folders
+slprj/
+codegen/
+*.mex*
+*.slxc
+
+# Data files and large experiment files
+*.mat
+*.bag
+*.csv
+
+# Local datasets
+data/raw/
+data/euroc/
+
+# Generated results
+results/temp/
+results/*.mat
+results/*.fig
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
