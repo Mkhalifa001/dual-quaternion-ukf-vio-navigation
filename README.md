@@ -16,13 +16,13 @@ The implementation includes:
 - MATLAB-based simulation and evaluation framework
 - Navigation performance evaluation using benchmark datasets
 
-## Repository Structure
+## Method Summary
+
+The filter estimates the navigation state by combining high-rate inertial measurements with visual information obtained from stereo image data. The pose is represented using unit dual quaternions, which provide a compact representation of rigid-body rotation and translation. The uncertainty is handled through a local pose-error representation, while the nominal pose remains on the dual quaternion manifold. This avoids directly adding Euclidean perturbations to the constrained dual quaternion state.
+
+## Code 
+
+The main MATLAB implementation is located in:
 
 ```text
-dual-quaternion-ukf-vio-navigation/
-│
-├── README.md
-├── .gitignore
-│
-└── src/
-    └── dqukf_vio_navigation.m
+src/dqukf_vio_navigation.m
