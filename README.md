@@ -25,7 +25,7 @@ The filter estimates the navigation state by combining high-rate inertial measur
 The main MATLAB implementation is located in:
 
 ```text
-src/dqukf_vio_navigation.m
+src/DQUKF_VIO_Navigation.m
 ```
 
 Detailed setup, dataset instructions, and tuning notes are provided in:
