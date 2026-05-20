@@ -26,3 +26,8 @@ The main MATLAB implementation is located in:
 
 ```text
 src/dqukf_vio_navigation.m
+
+## Citation
+M. Khalifa and H. A. Hashim, “Dual Quaternion-Based Unscented Kalman Filter with Visual Inertial Odometry for 
+Navigation in GPS-Denied Environments”, Measurement, 2026
+
