@@ -25,7 +25,7 @@ The filter estimates the navigation state by combining high-rate inertial measur
 The main MATLAB implementation is located in:
 
 ```text
-src/dqukf_vio_navigation.m
+src/dqukf_vio_navigation.m```
 
 ## Citation
 M. Khalifa and H. A. Hashim, “Dual Quaternion-Based Unscented Kalman Filter with Visual Inertial Odometry for 
