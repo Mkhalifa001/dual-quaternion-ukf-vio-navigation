@@ -20,14 +20,21 @@ The implementation includes:
 
 The filter estimates the navigation state by combining high-rate inertial measurements with visual information obtained from stereo image data. The pose is represented using unit dual quaternions, which provide a compact representation of rigid-body rotation and translation. The uncertainty is handled through a local pose-error representation, while the nominal pose remains on the dual quaternion manifold. This avoids directly adding Euclidean perturbations to the constrained dual quaternion state.
 
-## Code 
+## Code
 
 The main MATLAB implementation is located in:
 
 ```text
-src/dqukf_vio_navigation.m```
+src/dqukf_vio_navigation.m
+```
+
+Detailed setup, dataset instructions, and tuning notes are provided in:
+
+```text
+src/GUIDE.md
+```
 
 ## Citation
-M. Khalifa and H. A. Hashim, “Dual Quaternion-Based Unscented Kalman Filter with Visual Inertial Odometry for 
-Navigation in GPS-Denied Environments”, Measurement, 2026
+
+M. Khalifa and H. A. Hashim, “Dual Quaternion-Based Unscented Kalman Filter with Visual Inertial Odometry for Navigation in GPS-Denied Environments,” *Measurement*, 2026.
 
